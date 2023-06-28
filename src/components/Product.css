@@ -1,0 +1,50 @@
+.popup{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(189, 189, 189, 0.9);
+  }
+
+.model{
+    /* border: 2px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 3px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    display: inline-block;
+    background-color: white;
+    padding: 2rem;
+    width: 50%;
+    height: 90%;
+    overflow: auto;
+}
+
+.btn{
+  height: 1.7rem;
+  font-size: 1rem;
+  background-color: rgb(195, 144, 144);
+  color: #fff;
+  margin: 1rem;
+}
+
+.btn01{
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+.product-img{
+  margin: 1rem;
+  width: 8rem;
+}
+
+.product-name{
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+.product-price{
+  font-size: 1.5rem;
+  margin: 1rem;
+}
